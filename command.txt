@@ -16,3 +16,8 @@ git checkout
     to change between branches
     -b 
         to make new branch and put name of branch at end
+
+git merge
+    to merge branches
+    go on to branch and do "git merge master" to update branch from master or other higher branch
+    go to master and do "git merge new" changing new with branch you want to merge
