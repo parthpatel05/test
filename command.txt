@@ -1,0 +1,18 @@
+git init 
+    to make a folder into repo
+
+git add
+    to add the new changes to staging
+    use . after add to add all files, or name of file for specific file
+
+git status 
+    checks status of branch
+
+git commit -m ""
+    to solidify the changes to branch
+    put message in the quotes to explain what you did
+
+git checkout 
+    to change between branches
+    -b 
+        to make new branch and put name of branch at end
