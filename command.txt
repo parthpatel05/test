@@ -14,10 +14,21 @@ git commit -m ""
 
 git checkout 
     to change between branches
-    -b 
-        to make new branch and put name of branch at end
+    -b 'name'
+        to make new branch and 'name' is the name you want it to have
 
-git merge
+git merge 'branch'
     to merge branches
+    'branch' is the branch to be merged into current one
     go on to branch and do "git merge master" to update branch from master or other higher branch
     go to master and do "git merge new" changing new with branch you want to merge
+
+git remote add 'name' 'url'
+    this is basically the 'name' equal to the 'url'
+    it is making a remote repo variable
+    can have many diferent remote repo for 1 local repo
+
+git push -u 'name' 'branch'
+    it pushes the commit to the remote repo
+    the 'name' is the name that has the repo that you want to send to 
+    the 'branch' is the branch that you want to update
