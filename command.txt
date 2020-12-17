@@ -28,7 +28,12 @@ git remote add 'name' 'url'
     it is making a remote repo variable
     can have many diferent remote repo for 1 local repo
 
-git push -u 'name' 'branch'
+git push -u 'remoteRepo' 'branch'
     it pushes the commit to the remote repo
-    the 'name' is the name that has the repo that you want to send to 
+    the 'remoteRepo' is the name that has the repo url that you want to send to 
     the 'branch' is the branch that you want to update
+
+git pull 'remoteRepo' 'branch'
+    pulls down the changes from a remote repo from specific branch
+    'remoteRepo' is the variable with remote repo url
+    'branch' is branch name that you want to pull from
